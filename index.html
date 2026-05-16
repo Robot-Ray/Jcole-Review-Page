@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>J. Cole Album Review</title>
+    <style>
+      :root {
+        --bg: #f7f3ea;
+        --panel: #fffaf2;
+        --text: #1f1a17;
+        --muted: #6b5c52;
+        --accent: #9c4f24;
+        --accent-dark: #6d3413;
+        --border: #d8c8b6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f3ede2 0%, #faf7f1 100%);
+        color: var(--text);
+      }
+
+      header {
+        padding: 2rem 1.25rem 1rem;
+        text-align: center;
+      }
+
+      nav {
+        background: var(--accent-dark);
+        padding: 0.9rem 1rem;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: #fff8f1;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      main {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 1.5rem;
+      }
+
+      section {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 8px 20px rgba(31, 26, 23, 0.06);
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 1.7;
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 0.75rem;
+        padding: 0.75rem 1rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem 1.25rem 2rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header id="home">
+      <p class="muted">Assignment 4 GitHub Pages Site</p>
+      <h1>J. Cole's "The Fall Off" Review</h1>
+      <p>A simple one-page site based on last week's work.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#listen">Listen</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="review">
+        <h2>Review</h2>
+        <p>
+          The new J. Cole album, <strong>The Fall Off</strong>, delivers a focused
+          and polished sound. Even from the point of view of a listener who is
+          usually critical of J. Cole, this project feels thoughtful, confident,
+          and well-produced.
+        </p>
+        <p>
+          Music critic Anthony Fantano discusses the high expectations around
+          the album and why it stands out as one of Cole's most talked-about
+          releases.
+        </p>
+        <a class="button" href="https://www.youtube.com/watch?v=DNnbtX9xigc"
+          >Watch Anthony Fantano's review</a
+        >
+      </section>
+
+      <section id="highlights">
+        <h2>Highlights</h2>
+        <p>
+          This album has the feeling of a final statement: strong production,
+          reflective lyrics, and the kind of careful tracklist sequencing that
+          makes the whole project feel intentional from start to finish.
+        </p>
+        <p>
+          If you like album reviews, hip-hop discussion, and artist retrospectives,
+          this release gives plenty to talk about.
+        </p>
+      </section>
+
+      <section id="listen">
+        <h2>Where To Listen</h2>
+        <p>
+          You can stream the album on Spotify, Apple Music, or your preferred
+          music platform. Physical editions and official merch can also be found
+          on the artist's official website.
+        </p>
+        <a
+          class="button"
+          href="https://www.thefalloff.com/physical"
+          title="Official J. Cole site"
+          >Visit the official site</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>Built in VS Code and ready to publish with GitHub Pages.</p>
+    </footer>
+  </body>
+</html>
